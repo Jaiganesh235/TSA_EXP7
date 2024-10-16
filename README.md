@@ -4,9 +4,9 @@
 
 # Ex.No: 07                                       AUTO REGRESSIVE MODEL
 
-### AIM:
+## AIM:
 To Implement an Auto Regressive Model using Python
-### ALGORITHM:
+## ALGORITHM:
 1. Import necessary libraries
 2. Read the CSV file into a DataFrame
 3. Perform Augmented Dickey-Fuller test
@@ -14,7 +14,7 @@ To Implement an Auto Regressive Model using Python
 5. Plot Partial Autocorrelation Function (PACF) and Autocorrelation Function (ACF)
 6. Make predictions using the AR model.Compare the predictions with the test data
 7. Calculate Mean Squared Error (MSE).Plot the test data and predictions.
-### PROGRAM
+## PROGRAM
 ```python
 # Import necessary libraries
 import pandas as pd
@@ -77,28 +77,28 @@ plt.ylabel('Price')
 plt.legend()
 plt.show()
 ```
-### OUTPUT:
+## OUTPUT:
 
-1. GIVEN DATA
+### GIVEN DATA
 ![Screenshot (2)](https://github.com/user-attachments/assets/9a77fc63-449a-4c7b-8860-caa0c8be3576)
 
-2. ADF-STATISTIC AND P-VALUE
+### ADF-STATISTIC AND P-VALUE
 ![Screenshot (8)](https://github.com/user-attachments/assets/8cc34ce6-7140-4060-be93-cf7658f973ac)
 
 
-3. PACF - ACF
+### PACF - ACF
 ![Screenshot (3)](https://github.com/user-attachments/assets/b3edb3da-dee5-43eb-b9f8-f91894e8d5fc)
 
 ![Screenshot (4)](https://github.com/user-attachments/assets/c3b467a8-a573-4243-98a5-5a63d0f6c552)
 
-4. MSE VALUE
+### MSE VALUE
 ![Screenshot (7)](https://github.com/user-attachments/assets/c24290e7-d1a1-4bbe-806e-98fd33486c91)
 
 
-5. PREDICTION
+### PREDICTION
 ![Screenshot (5)](https://github.com/user-attachments/assets/7732cbad-737a-4ff4-88ab-c29fd2318062)
 
-6. FINAL PREDICTION
+### FINAL PREDICTION
 ![Screenshot (6)](https://github.com/user-attachments/assets/10d3db03-2359-4255-a3d5-c78f5ec4f90e)
 
 
